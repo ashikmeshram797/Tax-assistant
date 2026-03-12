@@ -1,0 +1,93 @@
+.auth-container {
+  position: fixed;     /* force full screen */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dbeafe;
+  z-index: 1000;       /* stay above layout */
+}
+
+/* Card wrapper */
+.auth-card {
+  width: 850px;
+  max-width: 95%;
+  height: 500px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+}
+
+/* Left blue panel */
+.auth-left {
+  flex: 1;
+  background: #6c83d3;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  text-align: center;
+  padding: 40px;
+}
+
+.auth-left h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.auth-left p {
+  margin-bottom: 20px;
+}
+
+.switch-btn {
+   margin-top: 20px;
+  padding: 10px 30px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Right form side */
+.auth-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.auth-right h2 {
+  margin-bottom: 20px;
+}
+
+/* Form */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.auth-btn {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #6c83d3;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
